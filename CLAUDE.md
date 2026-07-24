@@ -19,7 +19,7 @@ Simple questions can be answered directly without invoking the harness.
 **Triggers:**
 - SEO/descoberta da ArtFace, "aparecer no Google", "Google Meu Negócio / SEO local", palavras-chave de procedimento, "busca por IA" / GEO / AEO, Instagram/YouTube SEO, otimizar protocolo/campanha para busca → use the **`artface-seo`** skill (`.claude/skills/artface-seo/`), owned by the **`artface-seo-strategist`** agent (`.claude/agents/artface-seo-strategist.md`). Local SEO is central; every content item passes CFM/ANVISA compliance guardrails. Pairs with `artface-protocol-builder`.
 
-**Privacy note:** this repo is a *fork* of a public repo, so it is public and cannot simply be flipped to private. To keep the work uncopyable, move the code to a **new private (non-fork) repository**.
+**Privacy note (DEFERRED by owner, 2026-07-24):** this repo is a *fork* of a public repo, so it is public and cannot simply be flipped to private. Owner's decision: **keep the code open for now** and do the **full migration to a private (non-fork) repository as the final step**, once the ArtFace engine is complete and running. Do not spend time closing the code before then — but keep this as the last checklist item.
 
 **Change log:**
 | Date | Change | Target | Reason |
