@@ -29,7 +29,7 @@ The skill and brief default to **CFM / CRM / "physician"**. Live verification sh
 | Instagram `@artface.bc` (clinic) | **Have** | Live — "Clínica especializada em Harmonização Facial" | Optimize bio NAP + link (see §5) |
 | Instagram `@dr.rafaellucci` (personal) | **Unknown-verify** | Referenced in brief; not independently confirmed in search | Confirm handle is live and consistent |
 | Facebook `@artface.bc` | **Have** | Live — "Artface Harmonização Facial \| Balneário Camboriú SC" | NAP alignment |
-| Google Business Profile | **Unknown-verify** | Directory footprint strong (Doctoralia, odontologia.net.br, ReclameAqui) but a *claimed/verified* GBP with reviews was **not** confirmed in results | **Highest-priority verification** — confirm claimed/verified, category, NAP, reviews, photos |
+| Google Business Profile | **Have (owned by ArtFace, per owner)** | Profile already belongs to/managed by ArtFace — so "claim/verify" is done; the work is optimization | **Audit + complete** — confirm still verified (no "reivindicar este perfil" banner, no duplicate listing), then fix category, canonical name, NAP, services, photos, Q&A, posts, reviews |
 | Doctoralia (physician profile) | **Have** | `doctoralia.com.br/rafael-lucci-dos-santos/dentista/balneario-camboriu` — dentist, CRO-PR 17.398 / CRO-SC 18.965, HOF specialist, address confirmed | Complete profile, drive reviews, align NAP |
 | ReclameAqui `ARTFACE BC ODONTOLOGIA` | **Have (reputation flag)** | Profile exists; clinic claims 119 positive reviews; ≥1 complaint documented | Claim/monitor; respond compliantly (no patient data) — §3, §6 |
 | odontologia.net.br listing | **Have** | "ARTFACE BALNEARIO CAMBORIU" — **name inconsistency** vs "ArtFace® Harmonização Facial" | NAP normalization |
@@ -40,7 +40,7 @@ The skill and brief default to **CFM / CRM / "physician"**. Live verification sh
 - **Public display name (canonical for GBP/site/social/NAP):** ArtFace® Harmonização Facial
 - **Legal entity (invoices, contracts, legal footer only):** ARTFACE BC ODONTOLOGIA LTDA — **CNPJ 34.097.019/0001-10** (nome fantasia registrado: "ARTFACE BALNEARIO CAMBORIU"; aberta 02/07/2019; CNAE **86.30-5-04 Atividade odontológica**; ME).
   - Nuance: the "Odontologia"/"Balneario Camboriu" variants are the *legal* names — keep them where legally required, but use **ArtFace® Harmonização Facial** as the single public/marketing display name everywhere for NAP consistency.
-- **Address:** R. 1300, nº 181, Sala 25 (esquina das Ruas 1300 e 1304), Centro, Balneário Camboriú, SC, CEP 88330-549 *(CNPJ card; reconcile the "nº 25" seen on Doctoralia — likely the sala/room — before publishing)*
+- **Address (canonical, owner-confirmed):** R. 1300, Sala 25 (esq. Ruas 1300/1304), Centro, Balneário Camboriú/SC, CEP 88330-549
 - **Phone / WhatsApp:** **Unknown-verify** (never invent — must be provided)
 - **Responsible professional:** Dr. Rafael Lucci dos Santos — Cirurgião-dentista, especialista em Harmonização Orofacial — **CRO-SC 18.965 / CRO-PR 17.398** (confirmed by owner)
 
@@ -206,7 +206,7 @@ Also monitor referrers for `chat.openai.com` / `perplexity.ai` / `claude.ai`. Ba
 **Front-loaded High-impact / Low-effort (do this week):**
 | # | Action | Impact | Effort | Owner | Compliance |
 |---|---|---|---|---|---|
-| 1 | **Verify + claim GBP**; set category, canonical name, NAP, phone, 5 services | High | Low | Clinic mgr + SEO | ✅ |
+| 1 | **Audit + complete GBP** (already owned): confirm verified + no duplicate; set category, canonical name, NAP, phone, 5 services, photos, Q&A | High | Low | Clinic mgr + SEO | ✅ |
 | 2 | **Fix professional identity everywhere → CRO-SC 18.965 (dentist, HOF specialist)**; purge any "CRM/médico" wording | High | Low | Dr. Rafael + SEO | ✅ prevents false-title infraction |
 | 3 | **NAP normalization** — one canonical name/address/phone across site, IG, FB, Doctoralia, odontologia.net.br | High | Low | SEO | ✅ |
 | 4 | **Confirm AI-crawler + Googlebot access** (resolve the 403-to-bots) | High | Low | Dev | ⚠️ tech |
