@@ -6,7 +6,7 @@ For a clinic, **local signals usually outrank generic organic**: a patient searc
 Score each: Have / Partial / Missing / Unknown-provide-to-run.
 
 - **Claimed & verified** profile for the physical clinic.
-- **Primary category** precise (e.g. "Clínica de estética" / "Médico" / dermatology/plastic as applicable) + relevant secondary categories.
+- **Primary category** precise (e.g. "Especialista em harmonização facial" / "Clínica odontológica" / "Dentista" as available) + relevant secondary categories. Do **not** use a physician/"Médico" category — the practice is dentistry (CRO).
 - **Name** = real clinic name only (no keyword stuffing — against GBP guidelines and risks suspension).
 - **Address** exact + **service area** (cities served) if applicable.
 - **Phone** (local number), **WhatsApp**, **website**, **booking link**.
@@ -21,7 +21,7 @@ Score each: Have / Partial / Missing / Unknown-provide-to-run.
 Inconsistent NAP fragments local trust and confuses both Maps and AI models.
 
 - The **exact same** name, address, and phone must appear identically on: the site (footer + contact page), GBP, Instagram bio/contact, and any directory (Doctoralia, etc.).
-- Add **`LocalBusiness`/`MedicalBusiness` Schema.org** on the site with the same NAP (see on-page domain).
+- Add **`LocalBusiness`/`MedicalClinic` Schema.org** on the site with the same NAP (see on-page domain).
 - Audit for old addresses/phones on stale directories and fix them.
 
 ## 3. Reviews (compliant)
@@ -41,7 +41,7 @@ When ArtFace serves more than one city or wants to rank for "[procedimento] em [
 
 - One clear page per priority procedure, with a **local section** (city, address, map embed) where genuine.
 - Do **not** create thin duplicate pages for cities you don't genuinely serve (doorway pages are penalized and ethically dubious for a clinic).
-- Each page: compliant title ("[Procedimento] em [Cidade] — ArtFace | Dr. Rafael, CRM …"), factual description, FAQ, `MedicalProcedure` + `FAQPage` schema, real NAP.
+- Each page: compliant title ("[Procedimento] em [Cidade] — ArtFace | Dr. Rafael, CRO …"), factual description, FAQ, `MedicalProcedure` + `FAQPage` schema, real NAP.
 
 ## 6. Local scorecard (fill on each run)
 | Signal | State | Action | Impact | Effort |

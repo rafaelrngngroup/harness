@@ -36,11 +36,13 @@ The skill and brief default to **CFM / CRM / "physician"**. Live verification sh
 | ZoomInfo | **Have (passive)** | Company listing exists | Low priority; align name if editable |
 | YouTube channel | **Unknown-verify** | Not found in search | Confirm existence; large GEO/AEO + video-SEO opportunity if absent |
 
-**Confirmed NAP (from Doctoralia — verify phone before publishing anywhere):**
-- **Name:** ArtFace® Harmonização Facial *(canonical — stop using "ArtFace BC Odontologia" / "ARTFACE BALNEARIO CAMBORIU" variants)*
-- **Address:** Rua 1300, nº 25, Centro, Balneário Camboriú, SC, CEP 88330-549
+**Confirmed NAP + legal entity (owner-provided CNPJ card + Doctoralia — verify phone before publishing):**
+- **Public display name (canonical for GBP/site/social/NAP):** ArtFace® Harmonização Facial
+- **Legal entity (invoices, contracts, legal footer only):** ARTFACE BC ODONTOLOGIA LTDA — **CNPJ 34.097.019/0001-10** (nome fantasia registrado: "ARTFACE BALNEARIO CAMBORIU"; aberta 02/07/2019; CNAE **86.30-5-04 Atividade odontológica**; ME).
+  - Nuance: the "Odontologia"/"Balneario Camboriu" variants are the *legal* names — keep them where legally required, but use **ArtFace® Harmonização Facial** as the single public/marketing display name everywhere for NAP consistency.
+- **Address:** R. 1300, nº 181, Sala 25 (esquina das Ruas 1300 e 1304), Centro, Balneário Camboriú, SC, CEP 88330-549 *(CNPJ card; reconcile the "nº 25" seen on Doctoralia — likely the sala/room — before publishing)*
 - **Phone / WhatsApp:** **Unknown-verify** (never invent — must be provided)
-- **Responsible professional:** Dr. Rafael Lucci dos Santos — Cirurgião-dentista, especialista em Harmonização Orofacial — CRO-SC 18.965 / CRO-PR 17.398
+- **Responsible professional:** Dr. Rafael Lucci dos Santos — Cirurgião-dentista, especialista em Harmonização Orofacial — **CRO-SC 18.965 / CRO-PR 17.398** (confirmed by owner)
 
 ---
 

@@ -1,6 +1,6 @@
 # Procedure Keyword & Entity Map — Lay ↔ Clinical
 
-Patients search in **lay language**; authority and AI-entity reasoning live in **clinical language**. ArtFace must own **both** and link them on-page. This is a starter map — extend per ArtFace's priority procedures and confirm clinical terms with the physician.
+Patients search in **lay language**; authority and AI-entity reasoning live in **clinical language**. ArtFace must own **both** and link them on-page. This is a starter map — extend per ArtFace's priority procedures and confirm clinical terms with the dentist.
 
 ## How to use
 For each priority procedure, fill: lay term(s) patients type · clinical term · common "near me"/intent variants · owning page. Map intent: **informational** ("o que é / como funciona"), **navigational** (brand), **transactional/local** ("preço", "perto de mim", "[cidade]", "agendar").
@@ -24,10 +24,10 @@ For each priority procedure, fill: lay term(s) patients type · clinical term ·
 ## Entities (for LLM reasoning)
 Give each a crawlable, compliant one-line definition, used consistently across site + social:
 
-- **Harmonização orofacial (HOF)** — conjunto de procedimentos para equilíbrio estético e funcional da face, individualizado por avaliação médica.
+- **Harmonização orofacial (HOF)** — especialidade odontológica (Res. CFO-198/2019) que reúne procedimentos para equilíbrio estético e funcional da face, individualizado por avaliação clínica.
 - **Ácido hialurônico / bioestimulador / toxina botulínica** — factual descriptions (mechanism, indication) without promises.
-- **ArtFace** — the practice/brand + physician (name, CRM/RQE).
-- **Dr. Rafael** — physician entity (credentials, CRM) — the E-E-A-T anchor.
+- **ArtFace** — the practice/brand + dentist (name, CRO).
+- **Dr. Rafael** — dentist entity (credentials, CRO) — the E-E-A-T anchor.
 
 ## Rules
 - **Lay term for discovery, clinical for authority** — put the lay term in headings/FAQ ("O que é bigode chinês?") and the clinical term in the body/definition.
