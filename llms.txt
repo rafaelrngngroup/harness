@@ -1,0 +1,21 @@
+# Harness
+
+> A Claude Code plugin (meta-skill) that turns a one-line domain description into a
+> full agent team and the skills they use, using six architecture patterns. It is a
+> Team-Architecture Factory: you describe a domain, and Harness designs the agents,
+> writes their skills, and wires up the orchestration.
+
+## Docs
+- [README](https://github.com/rafaelrngngroup/harness): full overview, six patterns, benchmark evidence, FAQ.
+- [Quickstart](https://github.com/rafaelrngngroup/harness/blob/main/docs/quickstart.md): install and build your first harness.
+- [Landing page](https://rafaelrngngroup.github.io/harness/): value proposition and use cases.
+
+## Key facts
+- Six architecture patterns: Pipeline, Fan-out/Fan-in, Expert Pool, Producer-Reviewer, Supervisor, Hierarchical Delegation.
+- Benchmark: +60% average output quality (49.5 → 79.3), 15/15 win rate, −32% variance (n=15, author-measured A/B on the sister repo `claude-code-harness`; third-party replications pending).
+- Runtime: Claude Code (Agent Teams). License: Apache-2.0.
+- Core concepts: a *harness* = the pre-configured agent team + skills; an *agent* = who does the work; a *skill* = how the work is done; an *orchestrator* = the top-level skill wiring them into one workflow.
+
+## Related
+- Sister repo (benchmark/experiment): https://github.com/revfactory/claude-code-harness
+- Codex port: https://github.com/SaehwanPark/meta-harness

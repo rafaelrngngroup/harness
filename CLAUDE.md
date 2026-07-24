@@ -16,3 +16,4 @@ Simple questions can be answered directly without invoking the harness.
 | Date | Change | Target | Reason |
 |------|--------|--------|--------|
 | 2026-07-24 | Added SEO & AI-discoverability agent + skill; ran initial strategy | `.claude/agents/seo-strategist.md`, `.claude/skills/seo-strategy/`, `_workspace/05_seo_strategy.md` | Adopt & adapt an AI-ready SEO checklist for our case (GitHub + web + AI-search); prior coverage was only the auditor's partial "Discoverability" scoring |
+| 2026-07-24 | Executed top technical SEO actions | `index.html` (meta/canonical/OG/Twitter/Schema.org), `robots.txt`, `llms.txt`, `sitemap.xml` | Ship the High-impact/Low-effort file-based wins the seo-strategist owns (G1–G3 + on-page) |

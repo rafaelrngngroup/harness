@@ -161,4 +161,16 @@ Feed items 1–10 into the launch timeline as the pre-launch SEO block; 14–16 
 
 ## 5. What changed since last run
 
-**Initial run.** No prior `_workspace/05_seo_strategy.md` existed. Baseline established across all 7 domains; the repo-auditor's partial "Discoverability (7/10)" scoring was folded in (Topics, About, social preview) rather than re-audited. Next run: update AI-search recommendation-test results (G8), flip Unknown-in-UI items once verified, and mark completed actions.
+**Initial run.** No prior `_workspace/05_seo_strategy.md` existed. Baseline established across all 7 domains; the repo-auditor's partial "Discoverability (7/10)" scoring was folded in (Topics, About, social preview) rather than re-audited.
+
+**Follow-up execution (2026-07-24, same PR):** the file-based High/Low actions the `seo-strategist` owns were implemented directly:
+- ✅ `index.html`: meta description + `rel=canonical` + Open Graph + Twitter cards + Schema.org JSON-LD (`SoftwareApplication` + `FAQPage` mirroring the README FAQ). → actions #3, #4, and G2 **done**.
+- ✅ `robots.txt` at Pages root, explicitly allowing GPTBot/ClaudeBot/PerplexityBot/Google-Extended/CCBot + `Sitemap:` line. → action #5 / G1 **done**.
+- ✅ `llms.txt` at Pages root (product definition, docs map, key facts). → action #6 / G3 **done**.
+- ✅ `sitemap.xml` for the Pages site. → part of action #11 **done** (GSC registration still pending, UI).
+
+**Assumption flagged:** canonical / OG / sitemap / robots URLs assume GitHub Pages at `https://rafaelrngngroup.github.io/harness/`. If Pages isn't enabled or a custom domain is used, update these hosts (Pages-dependency gate).
+
+**Still pending (owner):** GitHub Topics + repo About + social preview upload (repo-auditor, UI); entity-naming reconciliation decision (product owner); compress the 2.9 MB banner (repo-auditor); README question-headings (content-creator); awesome-list submissions (community-scout); AI-search recommendation-test baseline G8 (seo-strategist).
+
+**Next run:** flip Unknown-in-UI items once verified, record G8 recommendation-test results, and mark remaining actions.
