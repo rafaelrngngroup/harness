@@ -174,3 +174,14 @@ Feed items 1–10 into the launch timeline as the pre-launch SEO block; 14–16 
 **Still pending (owner):** GitHub Topics + repo About + social preview upload (repo-auditor, UI); entity-naming reconciliation decision (product owner); compress the 2.9 MB banner (repo-auditor); README question-headings (content-creator); awesome-list submissions (community-scout); AI-search recommendation-test baseline G8 (seo-strategist).
 
 **Next run:** flip Unknown-in-UI items once verified, record G8 recommendation-test results, and mark remaining actions.
+
+---
+
+### ⚠️ Scope decision (2026-07-24) — PRIVATE / INTERNAL, ArtFace-only
+
+The owner clarified this fork is for **private, exclusive use within ArtFace — not to be opened to others**. This overrides the public-launch framing:
+
+- **Public discoverability is no longer a goal.** All public-promotion actions are **cancelled**: awesome-list submissions (#14), Pages activation, GitHub Topics/social-preview-for-reach, the generative-assistant recommendation test (G8), and any off-page/outreach.
+- **The public-facing SEO files are dormant while the repo is private** (a private repo serves no public Pages, so `robots.txt` / `llms.txt` / `sitemap.xml` / OG tags / canonical never get crawled). They are **retained as inert, reusable scaffolding** — not deleted — in case the posture ever changes. If the repo is ever made public *and* the intent is still "do not invite crawlers", invert `robots.txt` to `Disallow: /` and drop `llms.txt`.
+- **The `seo-strategist` agent + `seo-strategy` skill are retained as private internal tooling.** Their reusable value now points at a different target: **ArtFace's own web presence** (clinic site, landing pages, Instagram, Google, AI-search for aesthetics patients), not this repo. Re-aiming the skill at the ArtFace case is the high-value next step, pending owner confirmation.
+- **G8 baseline (`_workspace/07`) is kept** as a completed measurement/reference, but its "improve public visibility" follow-ups are void under this scope.
