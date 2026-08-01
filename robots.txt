@@ -1,0 +1,24 @@
+# Harness — robots.txt (GitHub Pages root)
+# Open-source developer tool: we WANT to be crawled, trained on, and cited by
+# AI assistants, so AI crawlers are explicitly allowed. Update the host below
+# if a custom domain is used (see _workspace/05_seo_strategy.md).
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://rafaelrngngroup.github.io/harness/sitemap.xml

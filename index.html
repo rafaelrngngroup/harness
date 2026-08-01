@@ -4,6 +4,78 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Harness — Agent Team & Skill Architect for Claude Code</title>
+
+<!-- SEO / discoverability. NOTE: canonical & og:url assume GitHub Pages at
+     https://rafaelrngngroup.github.io/harness/ — update if a custom domain
+     or different host is used (see _workspace/05_seo_strategy.md). -->
+<meta name="description" content="Harness is a Claude Code plugin (meta-skill) that turns a one-line domain description into a full agent team and the skills they use, using six architecture patterns: Pipeline, Fan-out/Fan-in, Expert Pool, Producer-Reviewer, Supervisor, and Hierarchical Delegation.">
+<link rel="canonical" href="https://rafaelrngngroup.github.io/harness/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Harness">
+<meta property="og:title" content="Harness — Agent Team & Skill Architect for Claude Code">
+<meta property="og:description" content="A Claude Code plugin that designs a domain-specific agent team and the skills they use, from a one-line prompt.">
+<meta property="og:url" content="https://rafaelrngngroup.github.io/harness/">
+<meta property="og:image" content="https://rafaelrngngroup.github.io/harness/harness_social.png">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Harness — Agent Team & Skill Architect for Claude Code">
+<meta name="twitter:description" content="A Claude Code plugin that designs a domain-specific agent team and the skills they use, from a one-line prompt.">
+<meta name="twitter:image" content="https://rafaelrngngroup.github.io/harness/harness_social.png">
+
+<!-- Schema.org: SoftwareApplication (developer tool, free, Apache-2.0) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Harness",
+  "alternateName": "Agent Team & Skill Architect",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Cross-platform (Claude Code)",
+  "description": "A Claude Code plugin (meta-skill) that designs a domain-specific agent team and generates the skills they use, using six architecture patterns.",
+  "url": "https://rafaelrngngroup.github.io/harness/",
+  "codeRepository": "https://github.com/rafaelrngngroup/harness",
+  "license": "https://www.apache.org/licenses/LICENSE-2.0",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "keywords": "Claude Code, agent teams, multi-agent, orchestration, skills, MCP, skill architect"
+}
+</script>
+
+<!-- Schema.org: FAQPage (mirrors the README FAQ; feeds AI answer engines) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Isn't \"+60%\" oversold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The +60% figure comes from an author-measured A/B test (n=15, 15 tasks, measured on the sister repo claude-code-harness). Every citation pairs the number with the disclosure 'n=15, author-measured, third-party replications pending'. For adoption decisions, run a 2–4 week internal pilot and measure your own numbers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why \"harness factory\" and not \"harness builder\"? Isn't this competing with Archon?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Archon generates deterministic runtime configurations (a Runtime-Configuration Factory). Harness generates agent team architectures — team structure, message protocols, review gates — so it is a Team-Architecture Factory. They are neighbor sub-layers of the same meta-factory and serve different needs; you can also combine them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Isn't \"Claude Code only\" too narrow? What about Gemini/Codex?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently the official runtime is Claude Code only. A Codex port of the same concept (meta-harness) is already public, so Codex teams can start there. Harness chose 'Claude-Code-native, deep' over 'multi-runtime, shallow'; cross-runtime collaboration is on the roadmap."
+      }
+    }
+  ]
+}
+</script>
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 :root{
