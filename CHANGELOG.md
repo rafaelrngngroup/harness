@@ -5,6 +5,7 @@
 ## [Unreleased]
 
 ### Added
+- **`skills/voice-creative`** — 스킬 신설: Voicebox(로컬 open-source 음성 스튜디오) 기반으로 소유자의 클론 보이스로 환자/리드용 오디오 크리에이티브를 생성. SKILL.md + 참조 문서 3종(Voicebox 설치·보이스 클로닝 가이드, REST/MCP API 레퍼런스, pt-BR 스크립트 템플릿)
 - 신규 에이전트/스킬 생성 전 중복 검토 단계 (Phase 3-0, Phase 4-0)
 - `references/agent-design-patterns.md` "에이전트 재사용 설계" 섹션
 - `references/skill-writing-guide.md` §9 "스킬 재사용 설계"
